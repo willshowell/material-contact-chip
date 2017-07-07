@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { DemoAppComponent } from './demo-app.component';
+
+import { WshContactChipModule } from '../lib/contact-chip';
 
 @NgModule({
   declarations: [
-    AppComponent
+    DemoAppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    WshContactChipModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [DemoAppComponent]
 })
-export class AppModule { }
+export class DemoAppModule { }

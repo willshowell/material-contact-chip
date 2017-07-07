@@ -1,0 +1,9 @@
+
+
+@mixin wsh-contact-chip-theme($theme) {
+
+  .wsh-contact-chip:hover{
+    background-color: red;
+  }
+
+}
